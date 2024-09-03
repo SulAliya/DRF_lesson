@@ -87,10 +87,10 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'drf_lessons',
+        'NAME': 'postgres',
         'USER': 'postgres',
-        'PASSWORD': 'Qwerty098',
-        'HOST': '127.0.0.1',
+        'PASSWORD': 'mysecretpassword',
+        'HOST': 'db',
         'PORT': 5432
     }
 }
@@ -155,5 +155,5 @@ CSRF_TRUSTED_ORIGINS = [
     "https://read-and-write.example.com",
 ]
 
-CUR_API_URL = 'https://api.currencyapi.com'
-CUR_API_KEY = '7Ybj7r2TpsEgaSDc54k8jGiszekBizY8BtupAFc'
+CUR_API_URL = 'https://api.currencyapi.com/'
+CUR_API_KEY = 'cur_live_xDMF3nNoaDel0e4pdJcWce3526Y5dsIBVBspx6ak'
